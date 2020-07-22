@@ -6,7 +6,7 @@ driver = webdriver.Chrome(r"C:\Users\cloud\Downloads\chromedriver_win32 (5)\chro
 
 url = 'https://www.travelmath.com/nearest-airport'
 
-city_list = ['Waxahachie, Texas', 'Red Oak, Texas', 'Tulsa, Oklahoma', 'Fair Banks, Alaska', 'St. Cloud, Minnesota', 'Nashua, New Hampshire', 'Mesa, AZ', 'riverside, ca','california, chula vista', 'glendora, ca', 'bentonville, arkansas', 'rock island, illinois', 'bandanna, MD', 'ambau, md']
+city_list = ['Waxahachie, Texas', 'Red Oak, Texas', 'Tulsa, Oklahoma', 'Fair Banks, Alaska', 'St. Cloud, Minnesota', 'Nashua, New Hampshire', 'Mesa, AZ', 'riverside, ca','california, chula vista',]
 nearest_airport_dict = {}
 
 for i in city_list:
