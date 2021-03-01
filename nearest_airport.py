@@ -2,11 +2,12 @@ from selenium import webdriver
 import time
 import re
 
-driver = webdriver.Chrome(r"C:\Users\cloud\Downloads\chromedriver_win32 (5)\chromedriver.exe")
+path = r''
+driver = webdriver.Chrome(path)
 
 url = 'https://www.travelmath.com/nearest-airport'
 
-city_list = ['Waxahachie, Texas', 'Red Oak, Texas', 'Tulsa, Oklahoma', 'Fair Banks, Alaska', 'St. Cloud, Minnesota', 'Nashua, New Hampshire', 'Mesa, AZ', 'riverside, ca','california, chula vista',]
+city_list = ['Tulsa, Oklahoma', 'Fair Banks, Alaska', 'St. Cloud, Minnesota', 'Nashua, New Hampshire', 'Mesa, AZ', 'riverside, ca','california, chula vista',]
 nearest_airport_dict = {}
 
 for i in city_list:
